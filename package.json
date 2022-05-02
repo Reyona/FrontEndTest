@@ -1,0 +1,23 @@
+{
+  "name": "front-end-test",
+  "version": "1.0.0",
+  "description": "",
+  "author": "charishuang <charishuang@tencent.com>",
+  "private": true,
+  "scripts": {
+    "unit": "jest --config test/unit/jest.conf.js --coverage",
+    "test": "npm run unit",
+    "lint": "eslint --ext .js,.vue src test/unit test/e2e/specs"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.17.9",
+    "@babel/preset-env": "^7.17.10",
+    "babel-jest": "^28.0.3",
+    "jest": "^28.0.3"
+  },
+  "engines": {
+    "node": ">= 6.0.0",
+    "npm": ">= 3.0.0"
+  }
+}
