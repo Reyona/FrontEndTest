@@ -1,3 +1,3 @@
-export function myNew() {
+export function myNew(Func, ...args) {
   // todo
 }
